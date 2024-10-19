@@ -12,7 +12,11 @@ Install from Magisk/KernelSU/Apatch Manager.
 
 About PIF Generator configuration, you can hold your screen for a second and it will automatically set to default settings. Useful if your VOL+ and VOL- having issue. ( Its time to buy new phone! )
 
-You can add `exclude.txt` to Internal Storage `/sdcard` or `/storage` to exclude package name from added to `target.txt`, If you add package name with `!` at the end of the package name in `exclude.txt` then that package name will be added to `target.txt` without `!`. More info about `!` you can read from Tricky Store description. ( No link find your own! )
+You can add `exclude.txt` to Internal Storage `/sdcard` or `/storage` to exclude package name from added to `target.txt`, If you add package name with `!` at the end of the package name in `exclude.txt` then that package name will be added to `target.txt` without `!`. More info about `!` you can read from Tricky Store description. ( No link! find your own! )
+
+spoofProvider - Set to False/No if youre using PlayIntegrityFix Fork
+
+spoofSignature - Set to True/Yes if your ROM Sign is Testkey.
 
 ## Requirements
 
